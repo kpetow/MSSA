@@ -1,0 +1,13 @@
+img{
+    width: 50%;
+    height: auto;
+}
+.wrong{
+    color: red;
+}
+.correct{
+    color: green;
+}
+.missing{
+    color: red;
+}
