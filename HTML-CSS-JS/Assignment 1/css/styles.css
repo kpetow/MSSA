@@ -1,0 +1,68 @@
+html{
+    height: 100%;
+}
+body{
+    min-height: 100%;
+    margin: 0%;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+}
+.logo{
+    margin-left: 0%;
+}
+.catmeme{
+    width: 300px;
+    height: 282px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.catmeme:hover{
+    width: 100vw;
+    height: 282px;
+}
+.bottom-list{
+    text-align: right;
+}
+footer {
+    background-color: black;
+    min-height: 120px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+div #copyright{
+    text-align: center;
+}
+a:hover {
+    background-color: grey;
+}
+.logo:hover{
+    animation: expand 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes expand {
+    to {transform: scale(1.2)}
+}
+header{
+    background-color: goldenrod;
+    min-height: 80px;
+}
+h1:hover{
+    animation: slide 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes slide {
+    0% {transform: translateX(0%);}
+    50% {transform: translateX(72%)}
+    100% {transform: translateX(0px);}
+}
