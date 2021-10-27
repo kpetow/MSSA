@@ -1,0 +1,73 @@
+<!-- 
+
+    ASSIGNMENT 2. JavaScript
+    Maximum score: 20
+
+    HTML 4pts:
+        1. Create a div element for the body of a calculator
+        2. Create an input element for the screen of the calculator
+        3. Create 9 buttons that correspond to the 9 digits of the calculator
+        4. Create 5 buttons for the operations: + - / * =
+
+    CSS 4pts:
+        1. Apply styles to the body of the calculator.
+        2. Apply styles to the screen of the calculator.
+        3. Apply style to the digit buttons of the calculator so they look the same.
+        4. Apply styles to the operation buttons so they contrast from the digit ones.
+        
+    JS 12pts:
+        1. Make it so that by default, the value showcased in the calculator is 0. worths 1pt.
+        2. Make it so that each time you press a digit button you send the number value to the calculator's screen. worths 1pt.
+        3. Make it so that each time you press an operation button, you store the current value in the screen of the calculator in a variable and you clean the screen of the calculator the value returns to 0. worths 3pts.
+        4. Make it so that if you're capturing the second digit, the operation buttons get blocked except for the equal operation. worths 3pts.
+        5. Make it so that when you press on the equal operation button you perform the operation and output the result on the screen. worths 2pts
+        6. Make it so that when you're displaying the result, if you press any key of the calculator it allows you to restart from zero capturing the first digit. 2pts.
+
+        *** at least 2 variables are needed
+        *** try to identify the repetitive tasks (may be best to handle as functions)
+ -->
+
+
+ <html>
+    <head>
+        <meta charset="utf-8">
+        <title>Kevin's Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="container">
+        <div class="calculator">
+            <div id="result">
+                <div id="history">
+                    <p id="history-value"></p>
+                </div>
+                <div id="output">
+                    <p id="output-value"></p>
+                </div>
+            </div>
+            <div class="keys">
+                <button class="operator" id="divide">/</button>
+                <button class="operator" id="multiply">x</button>
+                <button class="operator" id="subtract">-</button>
+                <button class="operator" id="add">+</button>
+                <button class="digit" id="7">7</button>
+                <button class="digit" id="8">8</button>
+                <button class="digit" id="9">9</button>
+                <button class="digit" id="4">4</button>
+                <button class="digit" id="5">5</button>
+                <button class="digit" id="6">6</button>
+                <button class="digit" id="1">1</button>
+                <button class="digit" id="2">2</button>
+                <button class="digit" id="3">3</button>
+                <button class="digit" id="0">0</button>
+                <button class="other-buttons" id="sign">+/-</button>
+                <button class="other-buttons" id="decimal">.</button>
+                <button class="clear-button" id="clear">AC</button>
+                <button class="enter-button" id="equals">=</button>
+            </div>
+        </div>
+    </div>
+
+    </body>
+</html>
