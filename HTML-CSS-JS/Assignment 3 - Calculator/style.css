@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    display: flex;
 }
 #container{
    width: 1000px;

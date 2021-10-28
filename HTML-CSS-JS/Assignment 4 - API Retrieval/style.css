@@ -1,0 +1,142 @@
+html{
+    background-image: url(images/poke-background.png)
+}
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+#pokedex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 8px solid black;
+    width: 700px;
+    height: 500px;
+    background-color: rgb(231, 4, 4);
+    border-radius: 20px;
+    box-shadow: 0px 0px 150px 1px black;
+}
+.side{
+    border: 10px solid rgb(65, 0, 0);
+    height: 480px;
+    width: 330px;
+}
+#left-side{
+    display: flex;
+    justify-content: center;    
+    border-radius: 10px 0px 0px 10px;
+    
+}
+#right-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    border-radius: 0px 10px 10px 0px;
+}
+#image-display{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 220px;
+    background-color: rgb(253, 217, 162);
+    margin: 40px 20px 20px 20px;
+    border: 20px solid rgb(240, 185, 102);
+    border-radius: 10px;
+}
+#info-display{
+    width: 250px;
+    height: 180px;
+    background-color: rgb(253, 217, 162);
+    margin: 40px;
+    border: 20px solid rgb(240, 185, 102);
+    border-radius: 10px;
+    font-family: retroFont;
+}
+#searchbar{
+    width: 250px;
+    height: 40px;
+    border: 4px solid black;
+    background-color: rgb(92, 107, 92);
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+}
+button{
+    width: 250px;
+    height: 40px;
+    border: 4px solid black;
+    background-color: rgb(0, 140, 255);
+    margin: 30px;
+    color: black;
+    font-weight: bolder;
+}
+::placeholder{
+    color:rgb(63, 63, 63);
+    font-weight: bold;
+    font-size: medium;
+}
+h1{
+    margin: 5px;
+}
+h2{
+    margin: 5px;    
+}
+ul{
+    margin: 0px;
+    list-style-type: none;
+    font-size: larger;
+}
+@font-face {
+    font-family: retroFont;
+    src: url(fonts/arcadeclassic/ARCADECLASSIC.TTF);
+}
+button:hover{
+    background-color: rgb(3, 101, 182);
+    cursor: pointer;
+}
+.textbox{
+    margin: 10px;
+}
+button:active{
+    transform: translateY(2px);
+}
+img{
+    animation-duration: 1.5s;
+    animation-name: bounce;
+}
+@keyframes bounce {
+    0%{
+        transform: 
+            rotate(0deg)
+            translate3d(0, 0, 0);
+    }
+    20%{
+        transform: 
+            rotate(-15deg)
+            translate3d(-20px, -30px, -10px);
+    }
+    40%{
+        transform: 
+            rotate(15deg)
+            translate3d(20px, 10px, 10px);
+    }
+    60%{
+        transform: 
+            rotate(-15deg)
+            translate3d(-20px, -30px, -10px);
+    }
+    80%{
+        transform: 
+            rotate(15deg)
+            translate3d(20px, 10px, 10px);
+    }
+    100%{
+        transform: 
+            rotate(0deg)
+            translate3d(0, 0, 0);
+    }
+}
