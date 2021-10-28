@@ -7,6 +7,8 @@ body{
    height: 550px;
    margin: 50px auto;
    background-image: url(https://i.kym-cdn.com/entries/icons/original/000/013/564/doge.jpg);
+   background-size: auto;
+   background-repeat: no-repeat;
 
 }
 .calculator{
@@ -23,22 +25,20 @@ body{
     height: 110px;
     background-color: rgba(255, 255, 255, 0.658);
     border-radius: 10px;
-    
-
 }
 #history{
     text-align: right;
     height: 15px;
     margin: 0 20;
     padding-top: 5px;
-    font-size: 15px;
+    font-size: 20px;
     color: grey;
 }
 #output{
     text-align: right;
     height: 65px;
-    margin: 5px 20px;
-    font-size: 40px;
+    margin: 20px 20px;
+    font-size: 50px;
     font-weight: bolder;
 }
 .keys{

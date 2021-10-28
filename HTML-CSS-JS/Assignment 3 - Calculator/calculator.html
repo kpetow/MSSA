@@ -33,41 +33,36 @@
         <meta charset="utf-8">
         <title>Kevin's Calculator</title>
         <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
     </head>
     <body>
         <div id="container">
         <div class="calculator">
             <div id="result">
-                <div id="history">
-                    <p id="history-value"></p>
-                </div>
-                <div id="output">
-                    <p id="output-value"></p>
-                </div>
+                <div id="history"></div>
+                <div id="output">0</div>
             </div>
             <div class="keys">
-                <button class="operator" id="divide" onclick="">/</button>
-                <button class="operator" id="multiply" onclick="">x</button>
-                <button class="operator" id="subtract" onclick="">-</button>
-                <button class="operator" id="add" onclick="">+</button>
-                <button class="digit" id="7" onclick="">7</button>
-                <button class="digit" id="8" onclick="">8</button>
-                <button class="digit" id="9" onclick="">9</button>
-                <button class="digit" id="4" onclick="">4</button>
-                <button class="digit" id="5" onclick="">5</button>
-                <button class="digit" id="6" onclick="">6</button>
-                <button class="digit" id="1" onclick="">1</button>
-                <button class="digit" id="2" onclick="">2</button>
-                <button class="digit" id="3" onclick="">3</button>
-                <button class="digit" id="0" onclick="">0</button>
-                <button class="other-buttons" id="sign" onclick="">+/-</button>
-                <button class="other-buttons" id="decimal" onclick="">.</button>
-                <button class="clear-button" id="clear" onclick="">AC</button>
-                <button class="enter-button" id="equals" onclick="">=</button>
+                <button class="operator" id="divide" onclick="logicDivide()">/</button>
+                <button class="operator" id="multiply" onclick="logicMultiply()">x</button>
+                <button class="operator" id="subtract" onclick="logicMinus()">-</button>
+                <button class="operator" id="add" onclick="logicAdd()">+</button>
+                <button class="digit" id="7" onclick="digit(7)">7</button>
+                <button class="digit" id="8" onclick="digit(8)">8</button>
+                <button class="digit" id="9" onclick="digit(9)">9</button>
+                <button class="digit" id="4" onclick="digit(4)">4</button>
+                <button class="digit" id="5" onclick="digit(5)">5</button>
+                <button class="digit" id="6" onclick="digit(6)">6</button>
+                <button class="digit" id="1" onclick="digit(1)">1</button>
+                <button class="digit" id="2" onclick="digit(2)">2</button>
+                <button class="digit" id="3" onclick="digit(3)">3</button>
+                <button class="digit" id="0" onclick="digit(0)">0</button>
+                <button class="other-buttons" id="sign" onclick="changeSign()">+/-</button>
+                <button class="other-buttons" id="decimal" onclick="decimalFunction()">.</button>
+                <button class="clear-button" id="clear" onclick="clearData()">AC</button>
+                <button class="enter-button" id="equals" onclick="calcOutput()">=</button>
             </div>
         </div>
     </div>
-
+    <script src="script.js"></script>
     </body>
 </html>
