@@ -13,7 +13,7 @@ function searchPokemon() {
         var parent = document.getElementById('parent');
         parent.innerHTML = pokemon.name;
         var sprite = document.getElementById('image-display');
-        sprite.innerHTML = "<img src=" + pokemon.sprites.front_default + ">";
+        sprite.innerHTML = "<img class= 'jump' src=" + pokemon.sprites.front_default + ">";
         var move1 = document.getElementById('move1');
         move1.innerHTML = pokemon.moves[0].move.name;
         var move2 = document.getElementById('move2');
