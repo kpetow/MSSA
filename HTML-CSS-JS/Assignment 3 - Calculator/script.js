@@ -22,7 +22,8 @@ function logicDivide(){
     document.getElementById("subtract").disabled = true;
     document.getElementById("add").disabled = true;
     secondNum = output.innerHTML;
-    secondNum = secondNum.split("/").pop();
+    secondNum = secondNum.substr(secondNum.indexOf("/") + 1);
+    console.log(secondNum);
 }
 function logicMultiply(){
     output.innerHTML = output.innerHTML + "*";
@@ -45,23 +46,24 @@ function logicAdd(){
     document.getElementById("subtract").disabled = true;
     document.getElementById("add").disabled = true;
 }            
-console.log(secondNum);
+
 
 function calcOutput(){
-    switch(){
-        case add:
-            output.innerHTML = firstNum + secondNum;
-            break;
-        case subtract:
-            output.innerHTML = firstNum - secondNum;
-            break;
-        case divide:
-            output.innerHTML = firstNum / secondNum;
-            break;
-        case multiply:
-            output.innerHTML = firstNum * secondNum;
-            break;
-    }
+    output.innerHTML = firstNum / secondNum;
+    // switch(){
+    //     case add:
+    //         output.innerHTML = firstNum + secondNum;
+    //         break;
+    //     case subtract:
+    //         output.innerHTML = firstNum - secondNum;
+    //         break;
+    //     case divide:
+    //         output.innerHTML = firstNum / secondNum;
+    //         break;
+    //     case multiply:
+    //         output.innerHTML = firstNum * secondNum;
+    //         break;
+    // }
 }
 
 function clearData(){

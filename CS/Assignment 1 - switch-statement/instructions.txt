@@ -1,0 +1,10 @@
+1. calculate monthly income of an employee
+2. calculate if a student passes or fails a course
+3. multiply two values, but if any value is 0, throw message "0"
+4. Division but if second value is 0, throws "you can't divide by 0"
+5. Compare 2 values and return biggest
+6. Determine if a number is odd or even.
+
+list + flowchart + pseudocode + screenshot of code = document
+
+(for all 6 programs)
