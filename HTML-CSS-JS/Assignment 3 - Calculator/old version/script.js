@@ -68,8 +68,5 @@ function calcOutput(){
 
 function clearData(){
     output.innerHTML = defaultVal;
-    document.getElementById("divide").disabled = false;
-    document.getElementById("multiply").disabled = false;
-    document.getElementById("subtract").disabled = false;
-    document.getElementById("add").disabled = false;
+    document.getElementsByClassName("operator").disabled = false;
 }
