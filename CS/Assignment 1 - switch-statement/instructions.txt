@@ -8,3 +8,7 @@
 list + flowchart + pseudocode + screenshot of code = document
 
 (for all 6 programs)
+
+Add the following menu options:
+7. Guess a number (give hint after failed attempts)
+8. Is it a prime number?
