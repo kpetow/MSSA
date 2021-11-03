@@ -12,3 +12,8 @@ list + flowchart + pseudocode + screenshot of code = document
 Add the following menu options:
 7. Guess a number (give hint after failed attempts)
 8. Is it a prime number?
+
+GAME CLASS
+1. Factorial (try to make in the least amount of lines)
+2. Program that returns the current season
+3. Rock paper scissors game

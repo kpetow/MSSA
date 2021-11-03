@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FB652762-C48E-45E1-B45B-EA241262EDC7}</ProjectGuid>
+    <ProjectGuid>{F725E5BA-F835-46E9-BEE5-501C9FC0F836}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Assignment_1</RootNamespace>
-    <AssemblyName>Assignment 1</AssemblyName>
+    <RootNamespace>Example1</RootNamespace>
+    <AssemblyName>Example1</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculator.cs" />
-    <Compile Include="Game.cs" />
-    <Compile Include="ExtraFunctions.cs" />
-    <Compile Include="Teacher.cs" />
-    <Compile Include="Compare.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

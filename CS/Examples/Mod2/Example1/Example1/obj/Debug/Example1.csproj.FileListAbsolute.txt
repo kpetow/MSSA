@@ -1,0 +1,8 @@
+C:\Users\kpeto\source\repos\MSSA\CS\Examples\Mod2\Example1\Example1\obj\Debug\Example1.csproj.AssemblyReference.cache
+C:\Users\kpeto\source\repos\MSSA\CS\Examples\Mod2\Example1\Example1\obj\Debug\Example1.csproj.SuggestedBindingRedirects.cache
+C:\Users\kpeto\source\repos\MSSA\CS\Examples\Mod2\Example1\Example1\obj\Debug\Example1.csproj.CoreCompileInputs.cache
+C:\Users\kpeto\source\repos\MSSA\CS\Examples\Mod2\Example1\Example1\bin\Debug\Example1.exe.config
+C:\Users\kpeto\source\repos\MSSA\CS\Examples\Mod2\Example1\Example1\bin\Debug\Example1.exe
+C:\Users\kpeto\source\repos\MSSA\CS\Examples\Mod2\Example1\Example1\bin\Debug\Example1.pdb
+C:\Users\kpeto\source\repos\MSSA\CS\Examples\Mod2\Example1\Example1\obj\Debug\Example1.exe
+C:\Users\kpeto\source\repos\MSSA\CS\Examples\Mod2\Example1\Example1\obj\Debug\Example1.pdb
