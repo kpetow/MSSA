@@ -1,0 +1,8 @@
+C:\Users\kpeto\source\repos\MSSA-1\Activities\20483C - Programming in C#\Challenges\2.Inheritance\Inheritance Example\Inheritance Example\bin\Debug\Inheritance Example.exe.config
+C:\Users\kpeto\source\repos\MSSA-1\Activities\20483C - Programming in C#\Challenges\2.Inheritance\Inheritance Example\Inheritance Example\bin\Debug\Inheritance Example.exe
+C:\Users\kpeto\source\repos\MSSA-1\Activities\20483C - Programming in C#\Challenges\2.Inheritance\Inheritance Example\Inheritance Example\bin\Debug\Inheritance Example.pdb
+C:\Users\kpeto\source\repos\MSSA-1\Activities\20483C - Programming in C#\Challenges\2.Inheritance\Inheritance Example\Inheritance Example\obj\Debug\Inheritance Example.csproj.AssemblyReference.cache
+C:\Users\kpeto\source\repos\MSSA-1\Activities\20483C - Programming in C#\Challenges\2.Inheritance\Inheritance Example\Inheritance Example\obj\Debug\Inheritance Example.csproj.SuggestedBindingRedirects.cache
+C:\Users\kpeto\source\repos\MSSA-1\Activities\20483C - Programming in C#\Challenges\2.Inheritance\Inheritance Example\Inheritance Example\obj\Debug\Inheritance Example.csproj.CoreCompileInputs.cache
+C:\Users\kpeto\source\repos\MSSA-1\Activities\20483C - Programming in C#\Challenges\2.Inheritance\Inheritance Example\Inheritance Example\obj\Debug\Inheritance Example.exe
+C:\Users\kpeto\source\repos\MSSA-1\Activities\20483C - Programming in C#\Challenges\2.Inheritance\Inheritance Example\Inheritance Example\obj\Debug\Inheritance Example.pdb

@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Globalization;
+using System.Diagnostics;
+
 
 
 namespace Assignment_1
@@ -12,6 +14,7 @@ namespace Assignment_1
     {
         public void factorialInput()
         {
+            var negativeInput = new IndexOutOfRangeException("Number cannot be negative");
             try
             {
 
@@ -19,13 +22,18 @@ namespace Assignment_1
                 Console.WriteLine("Game 1: Calculate a factorial.");
                 Console.Write("Enter a positive integer: ");
                 int numF = int.Parse(Console.ReadLine());
+
+                if (numF < 0)
+                {
+                    throw negativeInput;
+                }
                 int result = Game.factorialCalc(numF);
                 Console.WriteLine(result);
             }
-            catch(Exception e)
+            catch (IndexOutOfRangeException e)
             {
-                Console.WriteLine(e);
-                Console.WriteLine("You did not enter a valid number.");
+                Trace.WriteLine(e);
+                Console.WriteLine("You cannot enter a negative number.");
             }
         }
         public static int factorialCalc(int number)
