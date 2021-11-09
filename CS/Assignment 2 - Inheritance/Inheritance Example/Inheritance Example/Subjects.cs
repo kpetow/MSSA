@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace School
 {
-    abstract class Employee
+    enum Subject
     {
-        public Employee()
-        {
-            
-        }
+        History,
+        Math,
+        Spanish
     }
 }
+
+   

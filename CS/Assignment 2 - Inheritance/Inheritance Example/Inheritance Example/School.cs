@@ -8,6 +8,7 @@ namespace School
         public static int employees;
         public static int teachers;
         public static int janitors;
+        public static int classes = 3;
 
         // Constructor
         public School()
@@ -19,6 +20,10 @@ namespace School
         }
 
         // Method
+        public static int getClasses()
+        {
+            return classes;
+        }
         public static int getStudents()
         {
             return students;

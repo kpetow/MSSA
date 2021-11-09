@@ -73,7 +73,12 @@ namespace Assignment_1
                         Console.WriteLine("Extra features\n");
 
                         Console.WriteLine("1: Guess a number (3 attempts).");
-                        Console.WriteLine("2: Determine if a number is prime.\n");
+                        Console.WriteLine("2: Determine if a number is prime.");
+                        Console.WriteLine("3: Swap values of two variables.");
+                        Console.WriteLine("4: Calculate the cube of a number.");
+                        Console.WriteLine("5: Take the average of range of integers.");
+                        Console.WriteLine("6: Display Multiplication table from an integer input.");
+                        Console.WriteLine("7: Order alphabetically.\n");
                         Console.Write("Please select: ");
 
                         extraOption = int.Parse(Console.ReadLine());
@@ -91,6 +96,26 @@ namespace Assignment_1
                                 Console.ForegroundColor= ConsoleColor.Black;
                                 ExtraFunctions prime = new ExtraFunctions();
                                 prime.primeCheck(option);
+                                break;
+                            case 3:
+                                ExtraFunctions numberSwap = new ExtraFunctions();
+                                numberSwap.numberSwap(option);
+                                break;
+                            case 4:
+                                ExtraFunctions cubic = new ExtraFunctions();
+                                cubic.cubicValue(option);
+                                break;
+                            case 5:
+                                ExtraFunctions avg = new ExtraFunctions();
+                                avg.calcAverage(option);
+                                break;
+                            case 6:
+                                ExtraFunctions table = new ExtraFunctions();
+                                table.multiTable(option);
+                                break;
+                            case 7:
+                                ExtraFunctions abc = new ExtraFunctions();
+                                abc.alphaOrder(option);
                                 break;
                             default:
                                 Console.WriteLine("Press 0 to exit.");
@@ -137,7 +162,7 @@ namespace Assignment_1
                         break;
                 }
                  Console.ResetColor();
-                Console.WriteLine("Press enter to continue.\n");
+                Console.WriteLine("\nPress enter to continue.\n");
                 Console.ReadKey();
 
             }
