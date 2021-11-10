@@ -1,0 +1,8 @@
+C:\Users\kpeto\source\repos\MSSA\CS\StackCalculator\StackCalculator\bin\Debug\StackCalculator.exe.config
+C:\Users\kpeto\source\repos\MSSA\CS\StackCalculator\StackCalculator\bin\Debug\StackCalculator.exe
+C:\Users\kpeto\source\repos\MSSA\CS\StackCalculator\StackCalculator\bin\Debug\StackCalculator.pdb
+C:\Users\kpeto\source\repos\MSSA\CS\StackCalculator\StackCalculator\obj\Debug\StackCalculator.csproj.AssemblyReference.cache
+C:\Users\kpeto\source\repos\MSSA\CS\StackCalculator\StackCalculator\obj\Debug\StackCalculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\kpeto\source\repos\MSSA\CS\StackCalculator\StackCalculator\obj\Debug\StackCalculator.csproj.CoreCompileInputs.cache
+C:\Users\kpeto\source\repos\MSSA\CS\StackCalculator\StackCalculator\obj\Debug\StackCalculator.exe
+C:\Users\kpeto\source\repos\MSSA\CS\StackCalculator\StackCalculator\obj\Debug\StackCalculator.pdb

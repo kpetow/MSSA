@@ -1,0 +1,8 @@
+C:\Users\kpeto\source\repos\MSSA\CS\CreateGuestList\CreateGuestList\bin\Debug\CreateGuestList.exe.config
+C:\Users\kpeto\source\repos\MSSA\CS\CreateGuestList\CreateGuestList\bin\Debug\CreateGuestList.exe
+C:\Users\kpeto\source\repos\MSSA\CS\CreateGuestList\CreateGuestList\bin\Debug\CreateGuestList.pdb
+C:\Users\kpeto\source\repos\MSSA\CS\CreateGuestList\CreateGuestList\obj\Debug\CreateGuestList.csproj.AssemblyReference.cache
+C:\Users\kpeto\source\repos\MSSA\CS\CreateGuestList\CreateGuestList\obj\Debug\CreateGuestList.csproj.SuggestedBindingRedirects.cache
+C:\Users\kpeto\source\repos\MSSA\CS\CreateGuestList\CreateGuestList\obj\Debug\CreateGuestList.csproj.CoreCompileInputs.cache
+C:\Users\kpeto\source\repos\MSSA\CS\CreateGuestList\CreateGuestList\obj\Debug\CreateGuestList.exe
+C:\Users\kpeto\source\repos\MSSA\CS\CreateGuestList\CreateGuestList\obj\Debug\CreateGuestList.pdb

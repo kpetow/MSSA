@@ -1,0 +1,8 @@
+C:\Users\kpeto\source\repos\MSSA\CS\SpanishTranslator\SpanishTranslator\obj\Debug\SpanishTranslator.csproj.SuggestedBindingRedirects.cache
+C:\Users\kpeto\source\repos\MSSA\CS\SpanishTranslator\SpanishTranslator\obj\Debug\SpanishTranslator.csproj.CoreCompileInputs.cache
+C:\Users\kpeto\source\repos\MSSA\CS\SpanishTranslator\SpanishTranslator\bin\Debug\SpanishTranslator.exe.config
+C:\Users\kpeto\source\repos\MSSA\CS\SpanishTranslator\SpanishTranslator\bin\Debug\SpanishTranslator.exe
+C:\Users\kpeto\source\repos\MSSA\CS\SpanishTranslator\SpanishTranslator\bin\Debug\SpanishTranslator.pdb
+C:\Users\kpeto\source\repos\MSSA\CS\SpanishTranslator\SpanishTranslator\obj\Debug\SpanishTranslator.exe
+C:\Users\kpeto\source\repos\MSSA\CS\SpanishTranslator\SpanishTranslator\obj\Debug\SpanishTranslator.pdb
+C:\Users\kpeto\source\repos\MSSA\CS\SpanishTranslator\SpanishTranslator\obj\Debug\SpanishTranslator.csproj.AssemblyReference.cache

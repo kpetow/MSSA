@@ -1,0 +1,8 @@
+C:\Users\kpeto\source\repos\MSSA\CS\BankQueue\BankQueue\obj\Debug\BankQueue.csproj.AssemblyReference.cache
+C:\Users\kpeto\source\repos\MSSA\CS\BankQueue\BankQueue\obj\Debug\BankQueue.csproj.SuggestedBindingRedirects.cache
+C:\Users\kpeto\source\repos\MSSA\CS\BankQueue\BankQueue\obj\Debug\BankQueue.csproj.CoreCompileInputs.cache
+C:\Users\kpeto\source\repos\MSSA\CS\BankQueue\BankQueue\bin\Debug\BankQueue.exe.config
+C:\Users\kpeto\source\repos\MSSA\CS\BankQueue\BankQueue\bin\Debug\BankQueue.exe
+C:\Users\kpeto\source\repos\MSSA\CS\BankQueue\BankQueue\bin\Debug\BankQueue.pdb
+C:\Users\kpeto\source\repos\MSSA\CS\BankQueue\BankQueue\obj\Debug\BankQueue.exe
+C:\Users\kpeto\source\repos\MSSA\CS\BankQueue\BankQueue\obj\Debug\BankQueue.pdb
