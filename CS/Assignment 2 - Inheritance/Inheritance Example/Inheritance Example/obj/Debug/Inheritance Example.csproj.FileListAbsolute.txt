@@ -13,3 +13,4 @@ C:\Users\kpeto\source\repos\MSSA\CS\Assignment 2 - Inheritance\Inheritance Examp
 C:\Users\kpeto\source\repos\MSSA\CS\Assignment 2 - Inheritance\Inheritance Example\Inheritance Example\obj\Debug\Inheritance Example.csproj.CoreCompileInputs.cache
 C:\Users\kpeto\source\repos\MSSA\CS\Assignment 2 - Inheritance\Inheritance Example\Inheritance Example\obj\Debug\Inheritance Example.exe
 C:\Users\kpeto\source\repos\MSSA\CS\Assignment 2 - Inheritance\Inheritance Example\Inheritance Example\obj\Debug\Inheritance Example.pdb
+C:\Users\kpeto\source\repos\MSSA\CS\Assignment 2 - Inheritance\Inheritance Example\Inheritance Example\obj\Debug\Inheritance Example.csproj.SuggestedBindingRedirects.cache

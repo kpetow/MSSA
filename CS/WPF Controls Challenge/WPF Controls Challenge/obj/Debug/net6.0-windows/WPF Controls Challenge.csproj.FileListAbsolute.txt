@@ -1,0 +1,21 @@
+C:\Users\kpeto\source\repos\MSSA\CS\WPF Controls Challenge\WPF Controls Challenge\bin\Debug\net6.0-windows\WPF Controls Challenge.exe
+C:\Users\kpeto\source\repos\MSSA\CS\WPF Controls Challenge\WPF Controls Challenge\bin\Debug\net6.0-windows\WPF Controls Challenge.deps.json
+C:\Users\kpeto\source\repos\MSSA\CS\WPF Controls Challenge\WPF Controls Challenge\bin\Debug\net6.0-windows\WPF Controls Challenge.runtimeconfig.json
+C:\Users\kpeto\source\repos\MSSA\CS\WPF Controls Challenge\WPF Controls Challenge\bin\Debug\net6.0-windows\WPF Controls Challenge.dll
+C:\Users\kpeto\source\repos\MSSA\CS\WPF Controls Challenge\WPF Controls Challenge\bin\Debug\net6.0-windows\ref\WPF Controls Challenge.dll
+C:\Users\kpeto\source\repos\MSSA\CS\WPF Controls Challenge\WPF Controls Challenge\bin\Debug\net6.0-windows\WPF Controls Challenge.pdb
+C:\Users\kpeto\source\repos\MSSA\CS\WPF Controls Challenge\WPF Controls Challenge\obj\Debug\net6.0-windows\WPF Controls Challenge.csproj.AssemblyReference.cache
+C:\Users\kpeto\source\repos\MSSA\CS\WPF Controls Challenge\WPF Controls Challenge\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\kpeto\source\repos\MSSA\CS\WPF Controls Challenge\WPF Controls Challenge\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\kpeto\source\repos\MSSA\CS\WPF Controls Challenge\WPF Controls Challenge\obj\Debug\net6.0-windows\WPF Controls Challenge_MarkupCompile.cache
+C:\Users\kpeto\source\repos\MSSA\CS\WPF Controls Challenge\WPF Controls Challenge\obj\Debug\net6.0-windows\WPF Controls Challenge_MarkupCompile.lref
+C:\Users\kpeto\source\repos\MSSA\CS\WPF Controls Challenge\WPF Controls Challenge\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\kpeto\source\repos\MSSA\CS\WPF Controls Challenge\WPF Controls Challenge\obj\Debug\net6.0-windows\WPF Controls Challenge.g.resources
+C:\Users\kpeto\source\repos\MSSA\CS\WPF Controls Challenge\WPF Controls Challenge\obj\Debug\net6.0-windows\WPF Controls Challenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kpeto\source\repos\MSSA\CS\WPF Controls Challenge\WPF Controls Challenge\obj\Debug\net6.0-windows\WPF Controls Challenge.AssemblyInfoInputs.cache
+C:\Users\kpeto\source\repos\MSSA\CS\WPF Controls Challenge\WPF Controls Challenge\obj\Debug\net6.0-windows\WPF Controls Challenge.AssemblyInfo.cs
+C:\Users\kpeto\source\repos\MSSA\CS\WPF Controls Challenge\WPF Controls Challenge\obj\Debug\net6.0-windows\WPF Controls Challenge.csproj.CoreCompileInputs.cache
+C:\Users\kpeto\source\repos\MSSA\CS\WPF Controls Challenge\WPF Controls Challenge\obj\Debug\net6.0-windows\WPF Controls Challenge.dll
+C:\Users\kpeto\source\repos\MSSA\CS\WPF Controls Challenge\WPF Controls Challenge\obj\Debug\net6.0-windows\ref\WPF Controls Challenge.dll
+C:\Users\kpeto\source\repos\MSSA\CS\WPF Controls Challenge\WPF Controls Challenge\obj\Debug\net6.0-windows\WPF Controls Challenge.pdb
+C:\Users\kpeto\source\repos\MSSA\CS\WPF Controls Challenge\WPF Controls Challenge\obj\Debug\net6.0-windows\WPF Controls Challenge.genruntimeconfig.cache

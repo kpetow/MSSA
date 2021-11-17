@@ -1,0 +1,7 @@
+﻿1. Create a console application where a teacher is taking attendance.
+2. Create a teacher class and a student class.
+3. Populate a list with all the students created.
+4. Teacher is going to ask for each student in the list.
+5. Students must respond yes or no
+6a. If a student says "no", call an event that triggers a method that will make the teacher yell something different each time.
+6b. If a student says "no", call the same event that will trigger another method to change the grade of the student to 0.

@@ -1,0 +1,5 @@
+﻿Create a medical application to output weight in pounds or kilograms depending on the country asking for the patients data.
+
+1. Create a patients class and store the weight of the patient in pounds or kilograms
+2. Create a hospital class that receives patients and gets the weight of the patients and receives a delegate function to convert weight to pounds or kilograms
+3. Hospital should be able to print patient's weight in lbs or kgs.

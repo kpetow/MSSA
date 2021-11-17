@@ -1,0 +1,4 @@
+﻿1. Console App
+2. Create Calculator generic class
+3. Create addition method. Receives 2 numbers and returns the sum
+4. Add a constraint to the Calculator class

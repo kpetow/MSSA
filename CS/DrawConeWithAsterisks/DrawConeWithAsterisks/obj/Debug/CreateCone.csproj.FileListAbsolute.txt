@@ -1,0 +1,8 @@
+C:\Users\kpeto\source\repos\MSSA\CS\DrawConeWithAsterisks\DrawConeWithAsterisks\bin\Debug\DrawConeWithAsterisks.exe.config
+C:\Users\kpeto\source\repos\MSSA\CS\DrawConeWithAsterisks\DrawConeWithAsterisks\bin\Debug\DrawConeWithAsterisks.exe
+C:\Users\kpeto\source\repos\MSSA\CS\DrawConeWithAsterisks\DrawConeWithAsterisks\bin\Debug\DrawConeWithAsterisks.pdb
+C:\Users\kpeto\source\repos\MSSA\CS\DrawConeWithAsterisks\DrawConeWithAsterisks\obj\Debug\CreateCone.csproj.AssemblyReference.cache
+C:\Users\kpeto\source\repos\MSSA\CS\DrawConeWithAsterisks\DrawConeWithAsterisks\obj\Debug\CreateCone.csproj.SuggestedBindingRedirects.cache
+C:\Users\kpeto\source\repos\MSSA\CS\DrawConeWithAsterisks\DrawConeWithAsterisks\obj\Debug\CreateCone.csproj.CoreCompileInputs.cache
+C:\Users\kpeto\source\repos\MSSA\CS\DrawConeWithAsterisks\DrawConeWithAsterisks\obj\Debug\DrawConeWithAsterisks.exe
+C:\Users\kpeto\source\repos\MSSA\CS\DrawConeWithAsterisks\DrawConeWithAsterisks\obj\Debug\DrawConeWithAsterisks.pdb

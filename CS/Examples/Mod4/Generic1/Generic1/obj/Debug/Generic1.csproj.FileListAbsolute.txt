@@ -1,0 +1,8 @@
+C:\Users\kpeto\source\repos\MSSA\CS\Examples\Mod4\Generic1\Generic1\bin\Debug\Generic1.exe.config
+C:\Users\kpeto\source\repos\MSSA\CS\Examples\Mod4\Generic1\Generic1\bin\Debug\Generic1.exe
+C:\Users\kpeto\source\repos\MSSA\CS\Examples\Mod4\Generic1\Generic1\bin\Debug\Generic1.pdb
+C:\Users\kpeto\source\repos\MSSA\CS\Examples\Mod4\Generic1\Generic1\obj\Debug\Generic1.csproj.AssemblyReference.cache
+C:\Users\kpeto\source\repos\MSSA\CS\Examples\Mod4\Generic1\Generic1\obj\Debug\Generic1.csproj.SuggestedBindingRedirects.cache
+C:\Users\kpeto\source\repos\MSSA\CS\Examples\Mod4\Generic1\Generic1\obj\Debug\Generic1.csproj.CoreCompileInputs.cache
+C:\Users\kpeto\source\repos\MSSA\CS\Examples\Mod4\Generic1\Generic1\obj\Debug\Generic1.exe
+C:\Users\kpeto\source\repos\MSSA\CS\Examples\Mod4\Generic1\Generic1\obj\Debug\Generic1.pdb

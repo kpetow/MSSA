@@ -55,6 +55,21 @@ namespace School
             Console.WriteLine($"Student 3 is taking {student_3.getClasses()}.");
             Console.WriteLine($"Student 4 is taking {student_4.getClasses()}.\n");
 
+            Console.WriteLine("Press enter to submit grades.\n");
+            Console.ReadKey();
+
+            Console.WriteLine("Time to grade.\n");
+            Console.Write("Insert Student 1's grade: ");
+            var grade1 = Console.ReadLine();
+            student_1.addGrade(grade1);
+            Console.Write("\nInsert Student 2's grade: ");
+            var grade2 = Console.ReadLine();
+            student_2.addGrade(grade2);
+
+            Console.ReadKey();
+
+            student_1.mexicanNote();
+
             Console.ReadKey();
         }
     }
