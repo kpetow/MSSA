@@ -5,18 +5,55 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Controls_Challenge"
         mc:Ignorable="d"
-        Title="Fourth Coffee" Height="450" Width="800" TextBlock.TextAlignment="Center">
+        Title="Fourth Coffee" Height="300" Width="600" TextBlock.TextAlignment="Center" ResizeMode="NoResize">
     <Grid Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <Label Margin="28,56,244,98">Type of Coffee</Label>
+        <Label HorizontalAlignment="Right">Select Menu Item:</Label>
+
+        <ComboBox x:Name="menuItems" Grid.Column="1" Height="Auto" VerticalAlignment="Top" Margin="0,4,0,0">
+            <ComboBoxItem x:Name="Latte" Content="Latte" Selected="menuSelection"></ComboBoxItem>
+            <ComboBoxItem x:Name="Frapuccino" Content="Frapuccino" Selected="menuSelection"></ComboBoxItem>
+            <ComboBoxItem x:Name="Mocha" Content="Mocha" Selected="menuSelection"></ComboBoxItem>
+            <ComboBoxItem x:Name="Machiato" Content="Machiato" Selected="menuSelection"></ComboBoxItem>
+
+        </ComboBox>
+        <StackPanel Grid.Column="2" Grid.ColumnSpan="3" HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal"  Grid.ColumnSpan="3">
+                <Label Grid.Column="2">Size:</Label>
+
+                <RadioButton x:Name="sizeSmall" Grid.Column="3" Margin="7" GroupName="size" Click="btnOrder_Click">Small</RadioButton>
+                <RadioButton x:Name="sizeMedium" Grid.Column="3" Margin="7" GroupName="size" Click="btnOrder_Click">Medium</RadioButton>
+                <RadioButton x:Name="sizeLarge" Grid.Column="3" Margin="7" GroupName="size" Click="btnOrder_Click">Large</RadioButton>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+                <Label>Extras:</Label>
+                <CheckBox x:Name="Cream" Margin="7" Checked="addExtras" Unchecked="addExtras">Cream</CheckBox>
+                <CheckBox x:Name="Sugar" Margin="7" Checked="addExtras" Unchecked="addExtras">Sugar</CheckBox>
+            </StackPanel>
+
+            <StackPanel>
+                <Label FontWeight="Bold" Content="Order Summary:"/>
+                <TextBlock x:Name="summaryText" HorizontalAlignment="Left" Text="{Binding output, Mode=TwoWay}"></TextBlock>
+            </StackPanel>
+        </StackPanel>
+
+        <Button Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Margin="0, 10, 0, 10" Click="submitOrder">Submit Order</Button>
+
+
+
+
+        <!--<Label Margin="28,56,244,98">Type of Coffee</Label>
         <ComboBox x:Name="MenuOptions" Margin="141,58,30,116" Height="Auto" IsDropDownOpen="True" IsSynchronizedWithCurrentItem="False">
             <ComboBoxItem Content="Latte"/>
             <ComboBoxItem Content="Capuccino"/>
@@ -33,7 +70,7 @@
         <CheckBox Grid.Column="1" Content="Cream" HorizontalAlignment="Left" Margin="226,118,0,0" VerticalAlignment="Top"/>
         <Label Grid.Column="1" Content="Order Summary:" HorizontalAlignment="Left" Margin="31,24,0,0" Grid.Row="1" VerticalAlignment="Top" FontWeight="Bold"/>
         <TextBox x:Name="OrderOutput" Grid.Column="1" HorizontalAlignment="Left" Margin="31,64,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="328" Height="35" IsReadOnlyCaretVisible="True"/>
-        <Button x:Name="orderBtn" Click="btnOrder_Click" Content="Order Coffee" HorizontalAlignment="Left" Margin="336,133,0,0" Grid.Row="1" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="32" Width="88"/>
+        <Button x:Name="orderBtn" Click="btnOrder_Click" Content="Order Coffee" HorizontalAlignment="Left" Margin="336,133,0,0" Grid.Row="1" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="32" Width="88"/>-->
 
     </Grid>
 </Window>

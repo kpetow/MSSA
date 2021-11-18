@@ -1,0 +1,36 @@
+﻿<Window x:Class="Bindings.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bindings"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+    
+    <StackPanel>
+        <TextBox x:Name="textbox" Text="Hello World"></TextBox>
+        <TextBlock Text="{Binding ElementName=textbox, Path=Text, Mode=OneWay}"></TextBlock>
+    </StackPanel>
+
+        <StackPanel Grid.Column="1" Margin="10 0 0 0">
+            <Slider x:Name="slider1" IsSnapToTickEnabled="True" Minimum="0" Maximum="50"></Slider>
+            <TextBox Text="{Binding ElementName=slider1, Path=Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            <Line Margin="0 20"></Line>
+            <Slider x:Name="slider2" IsSnapToTickEnabled="True" Minimum="0" Maximum="50"></Slider>
+            <TextBox Text="{Binding ElementName=slider2, Path=Value, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+            <Line Margin="0 20"></Line>
+            <Slider x:Name="slider3" IsSnapToTickEnabled="True" Minimum="0" Maximum="50"></Slider>
+            <TextBox Text="{Binding ElementName=slider3, Path=Value, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

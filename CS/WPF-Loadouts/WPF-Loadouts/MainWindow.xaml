@@ -1,0 +1,89 @@
+﻿<Window x:Class="WPF_Loadouts.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Loadouts"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0" VerticalAlignment="Center">
+            <Button
+                x:Name="btn1"
+                Content="LOADOUT 1"
+                Width="200" Height="50" Margin="10" BorderBrush="Black"
+                Click="load1"
+            />
+            <Button 
+                x:Name="btn2"
+                Content="LOADOUT 2"
+                Width="200" Height="50" Margin="10" BorderBrush="Black"
+                Click="load2"
+             /> 
+            <Button 
+                x:Name="btn3"
+                Content="LOADOUT 3"
+                Width="200" Height="50" Margin="10" BorderBrush="Black"
+                Click="load3"
+             />
+            <Button 
+                x:Name="btn4"
+                Content="LOADOUT 4"
+                Width="200" Height="50" Margin="10" BorderBrush="Black"
+                Click="load4"
+             />
+        </StackPanel>
+        
+        <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="10">
+            
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <Label >Brightness:</Label>
+                <Slider 
+                    x:Name="slider" VerticalAlignment="Center" Width="300" Minimum="0" Maximum="100" IsSnapToTickEnabled="True" 
+                    Value="{Binding brightness, Mode=TwoWay}" ValueChanged="printValue"
+                    />
+                <TextBlock VerticalAlignment="Center" Text="{Binding brightness, Mode=TwoWay}"></TextBlock>
+            </StackPanel>
+            
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <Label>Difficulty:</Label>
+                <RadioButton 
+                    GroupName="difficultyLevels" Content="Easy" VerticalAlignment="Center" Margin="10, 0"
+                    IsChecked="{Binding easy, Mode=TwoWay}"
+                    />
+                <RadioButton 
+                    GroupName="difficultyLevels" Content="Normal" VerticalAlignment="Center" Margin="10, 0"
+                    IsChecked="{Binding normal, Mode=TwoWay}"
+                    />
+                <RadioButton 
+                    GroupName="difficultyLevels" Content="Hard" VerticalAlignment="Center" Margin="10, 0"
+                    IsChecked="{Binding hard, Mode=TwoWay}"         
+                    />
+            </StackPanel>
+            
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <Label>Resolution:</Label>
+                <ComboBox Width="200" VerticalAlignment="Center">
+                    <ComboBoxItem Content="1920 x 1080"/>
+                    <ComboBoxItem Content="2460 x 1080"/>
+                    <ComboBoxItem Content="1024 x 768"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <Label>Hints:</Label>
+                <CheckBox 
+                    VerticalAlignment="Center"
+                    IsChecked="{Binding hints, Mode=TwoWay}"
+                    />
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</Window>
