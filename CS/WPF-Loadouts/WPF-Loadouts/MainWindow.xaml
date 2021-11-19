@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
 
+    <Window.Resources>
+        <local:BoolToInvertedConverter x:Key="boolToInvertConverter"/>
+    </Window.Resources>
+
+
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="auto"></ColumnDefinition>
@@ -25,7 +31,7 @@
                 Content="LOADOUT 2"
                 Width="200" Height="50" Margin="10" BorderBrush="Black"
                 Click="load2"
-             /> 
+             />
             <Button 
                 x:Name="btn3"
                 Content="LOADOUT 3"
@@ -39,40 +45,43 @@
                 Click="load4"
              />
         </StackPanel>
-        
+
         <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="10">
-            
+
             <StackPanel Orientation="Horizontal" Margin="10">
                 <Label >Brightness:</Label>
                 <Slider 
                     x:Name="slider" VerticalAlignment="Center" Width="300" Minimum="0" Maximum="100" IsSnapToTickEnabled="True" 
-                    Value="{Binding brightness, Mode=TwoWay}" ValueChanged="printValue"
+                    Value="{Binding Brightness, Mode=TwoWay}"
                     />
-                <TextBlock VerticalAlignment="Center" Text="{Binding brightness, Mode=TwoWay}"></TextBlock>
+                <TextBlock VerticalAlignment="Center" Text="{Binding Brightness, Mode=TwoWay}"></TextBlock>
             </StackPanel>
-            
+
             <StackPanel Orientation="Horizontal" Margin="10">
                 <Label>Difficulty:</Label>
                 <RadioButton 
                     GroupName="difficultyLevels" Content="Easy" VerticalAlignment="Center" Margin="10, 0"
-                    IsChecked="{Binding easy, Mode=TwoWay}"
+                    x:Name="easyBtn"
+                    Checked="changeMode"
                     />
                 <RadioButton 
                     GroupName="difficultyLevels" Content="Normal" VerticalAlignment="Center" Margin="10, 0"
-                    IsChecked="{Binding normal, Mode=TwoWay}"
+                    x:Name="normalBtn"
+                    Checked="changeMode"                    
                     />
                 <RadioButton 
                     GroupName="difficultyLevels" Content="Hard" VerticalAlignment="Center" Margin="10, 0"
-                    IsChecked="{Binding hard, Mode=TwoWay}"         
+                    x:Name="hardBtn"
+                    Checked="changeMode"                    
                     />
             </StackPanel>
-            
+
             <StackPanel Orientation="Horizontal" Margin="10">
                 <Label>Resolution:</Label>
-                <ComboBox Width="200" VerticalAlignment="Center">
-                    <ComboBoxItem Content="1920 x 1080"/>
-                    <ComboBoxItem Content="2460 x 1080"/>
-                    <ComboBoxItem Content="1024 x 768"/>
+                <ComboBox Width="200" VerticalAlignment="Center" x:Name="resItem">
+                    <ComboBoxItem x:Name="res1" Content="1920 x 1080" Selected="changeRes"/>
+                    <ComboBoxItem x:Name="res2" Content="2460 x 1080" Selected="changeRes"/>
+                    <ComboBoxItem x:Name="res3" Content="1024 x 768" Selected="changeRes"/>
                 </ComboBox>
             </StackPanel>
 
@@ -80,10 +89,11 @@
                 <Label>Hints:</Label>
                 <CheckBox 
                     VerticalAlignment="Center"
-                    IsChecked="{Binding hints, Mode=TwoWay}"
+                    IsChecked="{Binding Hints, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                     />
             </StackPanel>
         </StackPanel>
+        <Button Grid.Column="1" Content="Debug" HorizontalAlignment="Left" Margin="437,369,0,0" VerticalAlignment="Top" Height="42" Width="86" Click="printDebug"/>
 
     </Grid>
 </Window>

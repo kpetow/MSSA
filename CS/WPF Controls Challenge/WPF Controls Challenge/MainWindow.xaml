@@ -43,34 +43,13 @@
             </StackPanel>
 
             <StackPanel>
-                <Label FontWeight="Bold" Content="Order Summary:"/>
-                <TextBlock x:Name="summaryText" HorizontalAlignment="Left" Text="{Binding output, Mode=TwoWay}"></TextBlock>
+                <Label FontWeight="Bold" Content="Order Summary:" HorizontalAlignment="Left"/>
+                <TextBlock x:Name="summaryText" HorizontalAlignment="Left" 
+                           Text="{Binding Output, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"></TextBlock>
             </StackPanel>
         </StackPanel>
 
         <Button Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Margin="0, 10, 0, 10" Click="submitOrder">Submit Order</Button>
-
-
-
-
-        <!--<Label Margin="28,56,244,98">Type of Coffee</Label>
-        <ComboBox x:Name="MenuOptions" Margin="141,58,30,116" Height="Auto" IsDropDownOpen="True" IsSynchronizedWithCurrentItem="False">
-            <ComboBoxItem Content="Latte"/>
-            <ComboBoxItem Content="Capuccino"/>
-            <ComboBoxItem Content="Americano"/>
-            <ComboBoxItem Content="Espresso"/>
-            <ComboBoxItem Content="Machiato"/>
-        </ComboBox>
-        <RadioButton x:Name="Small" Grid.Column="1" Content="Small" HorizontalAlignment="Left" Margin="92,64,0,0" VerticalAlignment="Top" GroupName="Size"/>
-        <RadioButton x:Name="Medium" Grid.Column="1" Content="Medium" HorizontalAlignment="Left" Margin="176,64,0,0" VerticalAlignment="Top" GroupName="Size"/>
-        <RadioButton x:Name="Large" Grid.Column="1" Content="Large" HorizontalAlignment="Left" Margin="268,64,0,0" VerticalAlignment="Top" GroupName="Size"/>
-        <Label Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="43,60,0,0" VerticalAlignment="Top"/>
-        <Label Grid.Column="1" Content="Size:" HorizontalAlignment="Left" Margin="31,58,0,0" VerticalAlignment="Top" Height="23"/>
-        <CheckBox Grid.Column="1" Content="Sugar" HorizontalAlignment="Left" Margin="114,118,0,0" VerticalAlignment="Top"/>
-        <CheckBox Grid.Column="1" Content="Cream" HorizontalAlignment="Left" Margin="226,118,0,0" VerticalAlignment="Top"/>
-        <Label Grid.Column="1" Content="Order Summary:" HorizontalAlignment="Left" Margin="31,24,0,0" Grid.Row="1" VerticalAlignment="Top" FontWeight="Bold"/>
-        <TextBox x:Name="OrderOutput" Grid.Column="1" HorizontalAlignment="Left" Margin="31,64,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="328" Height="35" IsReadOnlyCaretVisible="True"/>
-        <Button x:Name="orderBtn" Click="btnOrder_Click" Content="Order Coffee" HorizontalAlignment="Left" Margin="336,133,0,0" Grid.Row="1" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="32" Width="88"/>-->
 
     </Grid>
 </Window>

@@ -13,21 +13,33 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Diagnostics;
+using System.ComponentModel;
 
 namespace WPF_Controls_Challenge
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-    
-    public class Coffee
-    {
-        public string size { get; set; }
-        public string item { get; set; }
-        public string extras { get; set; }
-        public string output { get; set; }
+    public class Coffee : INotifyPropertyChanged
 
+    {
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        //Fields
+
+        private string output;
+
+        //Properties
+
+        public string Output
+        {
+            get { return output; }
+            set { output = value; updateOrder("Output"); }
+        }
+
+        public void updateOrder(string property)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(property));        
+        }
     }
+
     public partial class MainWindow : Window
     {
         string size;
@@ -35,22 +47,35 @@ namespace WPF_Controls_Challenge
         string extras;
         string summary;
 
-        Coffee coffee1 = new Coffee();
-       
+        Coffee coffee1;
+        //Instantiating the Binding
+        //public Binding OutputBinding = new Binding("Output");
         
 
         public MainWindow()
         {
             InitializeComponent();
-            //btnOrder_Click();
+
+            coffee1 = new Coffee();
             this.DataContext = coffee1;
+
+            //Setting properites of the new binding that we just made.
+            //OutputBinding.Mode = BindingMode.OneWay;
+           // OutputBinding.Source = coffee1;
+           // OutputBinding.UpdateSourceTrigger = UpdateSourceTrigger.PropertyChanged;
+            //First argument, the name of the element you want to bind.
+            //Second argument is the property you want to change
+            //Third argument is the name of the binding object above^^^ 
+           // BindingOperations.SetBinding(summaryText, TextBlock.TextProperty,OutputBinding);
+            
+            
         }
 
         public void summaryUpdate()
         {
             this.summary = $"{size} {item} {extras}";
-            coffee1.output = summary;
-            Debug.WriteLine(coffee1.output);
+            coffee1.Output = summary;
+            Debug.WriteLine(coffee1.Output);
             //summaryText.Text = summary;
         }
 

@@ -19,3 +19,4 @@ C:\Users\kpeto\source\repos\MSSA\CS\WPF-Loadouts\WPF-Loadouts\obj\Debug\net6.0-w
 C:\Users\kpeto\source\repos\MSSA\CS\WPF-Loadouts\WPF-Loadouts\obj\Debug\net6.0-windows\ref\WPF-Loadouts.dll
 C:\Users\kpeto\source\repos\MSSA\CS\WPF-Loadouts\WPF-Loadouts\obj\Debug\net6.0-windows\WPF-Loadouts.pdb
 C:\Users\kpeto\source\repos\MSSA\CS\WPF-Loadouts\WPF-Loadouts\obj\Debug\net6.0-windows\WPF-Loadouts.genruntimeconfig.cache
+C:\Users\kpeto\source\repos\MSSA\CS\WPF-Loadouts\WPF-Loadouts\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
