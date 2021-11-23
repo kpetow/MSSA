@@ -1,0 +1,21 @@
+C:\Users\kpeto\source\repos\MSSA\CS\WPF-Patient Database\WPF-Patient Database\bin\Debug\net6.0-windows\WPF-Patient Database.exe
+C:\Users\kpeto\source\repos\MSSA\CS\WPF-Patient Database\WPF-Patient Database\bin\Debug\net6.0-windows\WPF-Patient Database.deps.json
+C:\Users\kpeto\source\repos\MSSA\CS\WPF-Patient Database\WPF-Patient Database\bin\Debug\net6.0-windows\WPF-Patient Database.runtimeconfig.json
+C:\Users\kpeto\source\repos\MSSA\CS\WPF-Patient Database\WPF-Patient Database\bin\Debug\net6.0-windows\WPF-Patient Database.dll
+C:\Users\kpeto\source\repos\MSSA\CS\WPF-Patient Database\WPF-Patient Database\bin\Debug\net6.0-windows\ref\WPF-Patient Database.dll
+C:\Users\kpeto\source\repos\MSSA\CS\WPF-Patient Database\WPF-Patient Database\bin\Debug\net6.0-windows\WPF-Patient Database.pdb
+C:\Users\kpeto\source\repos\MSSA\CS\WPF-Patient Database\WPF-Patient Database\obj\Debug\net6.0-windows\WPF-Patient Database.csproj.AssemblyReference.cache
+C:\Users\kpeto\source\repos\MSSA\CS\WPF-Patient Database\WPF-Patient Database\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\kpeto\source\repos\MSSA\CS\WPF-Patient Database\WPF-Patient Database\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\kpeto\source\repos\MSSA\CS\WPF-Patient Database\WPF-Patient Database\obj\Debug\net6.0-windows\WPF-Patient Database_MarkupCompile.cache
+C:\Users\kpeto\source\repos\MSSA\CS\WPF-Patient Database\WPF-Patient Database\obj\Debug\net6.0-windows\WPF-Patient Database_MarkupCompile.lref
+C:\Users\kpeto\source\repos\MSSA\CS\WPF-Patient Database\WPF-Patient Database\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\kpeto\source\repos\MSSA\CS\WPF-Patient Database\WPF-Patient Database\obj\Debug\net6.0-windows\WPF-Patient Database.g.resources
+C:\Users\kpeto\source\repos\MSSA\CS\WPF-Patient Database\WPF-Patient Database\obj\Debug\net6.0-windows\WPF-Patient Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kpeto\source\repos\MSSA\CS\WPF-Patient Database\WPF-Patient Database\obj\Debug\net6.0-windows\WPF-Patient Database.AssemblyInfoInputs.cache
+C:\Users\kpeto\source\repos\MSSA\CS\WPF-Patient Database\WPF-Patient Database\obj\Debug\net6.0-windows\WPF-Patient Database.AssemblyInfo.cs
+C:\Users\kpeto\source\repos\MSSA\CS\WPF-Patient Database\WPF-Patient Database\obj\Debug\net6.0-windows\WPF-Patient Database.csproj.CoreCompileInputs.cache
+C:\Users\kpeto\source\repos\MSSA\CS\WPF-Patient Database\WPF-Patient Database\obj\Debug\net6.0-windows\WPF-Patient Database.dll
+C:\Users\kpeto\source\repos\MSSA\CS\WPF-Patient Database\WPF-Patient Database\obj\Debug\net6.0-windows\ref\WPF-Patient Database.dll
+C:\Users\kpeto\source\repos\MSSA\CS\WPF-Patient Database\WPF-Patient Database\obj\Debug\net6.0-windows\WPF-Patient Database.pdb
+C:\Users\kpeto\source\repos\MSSA\CS\WPF-Patient Database\WPF-Patient Database\obj\Debug\net6.0-windows\WPF-Patient Database.genruntimeconfig.cache

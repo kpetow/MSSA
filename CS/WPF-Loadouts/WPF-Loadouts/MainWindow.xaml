@@ -9,6 +9,27 @@
 
     <Window.Resources>
         <local:BoolToInvertedConverter x:Key="boolToInvertConverter"/>
+
+        <Style x:Key="btnStyle" TargetType="Button">
+            <Style.Triggers>
+                
+            </Style.Triggers>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Background" Value="DarkCyan"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="Blue"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                        <ContentPresenter/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            
+        </Style>
     </Window.Resources>
 
 
@@ -22,24 +43,28 @@
         <StackPanel Grid.Column="0" VerticalAlignment="Center">
             <Button
                 x:Name="btn1"
+                Style="{StaticResource btnStyle}"
                 Content="LOADOUT 1"
                 Width="200" Height="50" Margin="10" BorderBrush="Black"
                 Click="load1"
             />
             <Button 
                 x:Name="btn2"
+                Style="{StaticResource btnStyle}"
                 Content="LOADOUT 2"
                 Width="200" Height="50" Margin="10" BorderBrush="Black"
                 Click="load2"
              />
             <Button 
                 x:Name="btn3"
+                Style="{StaticResource btnStyle}"
                 Content="LOADOUT 3"
                 Width="200" Height="50" Margin="10" BorderBrush="Black"
                 Click="load3"
              />
             <Button 
                 x:Name="btn4"
+                Style="{StaticResource btnStyle}"
                 Content="LOADOUT 4"
                 Width="200" Height="50" Margin="10" BorderBrush="Black"
                 Click="load4"
