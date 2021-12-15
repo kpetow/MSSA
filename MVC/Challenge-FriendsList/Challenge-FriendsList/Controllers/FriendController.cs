@@ -10,7 +10,7 @@ namespace Challenge_FriendsList.Controllers
         IListOfFriends _listofFriends;
 
         //Inject service into controller
-        public FriendController(IListOfFriends listOfFriends)
+        public FriendController(IListOfFriends listOfFriends) //catches the service arguments
         {
             //Dependency Injection
             _listofFriends = listOfFriends;
@@ -41,18 +41,34 @@ namespace Challenge_FriendsList.Controllers
         }
 
         //Update Friend
-        public IActionResult EditFriend(int id)
-        {
-            return View();
-        }
-        
-        public IActionResult Details(int id)
+        public IActionResult editFriend(int id)
         {
             Friend friend = _listofFriends.getFriendById(id);
             return View(friend);
         }
 
+        [HttpPost]
+        public IActionResult Edit(Friend model)
+        {
+            if (ModelState.IsValid)
+            {
+                Friend friend = _listofFriends.getFriendById(model.id);
+                friend.id = model.id;
+                friend.friendName = model.friendName;
+                friend.age = model.age;
+                friend.occupation = model.occupation;
+                friend.place = model.place;
+                friend.sport = model.sport;
+            }
 
+            return View();
+        }
+
+        public IActionResult Details(int id)
+        {
+            Friend friend = _listofFriends.getFriendById(id);
+            return View(friend);
+        }
 
         //Delete Friend
 
@@ -62,9 +78,6 @@ namespace Challenge_FriendsList.Controllers
             return RedirectToAction("Index");
         }
 
-        public IActionResult editFriend()
-        {
-            return View();
-        }
+
     }
 }

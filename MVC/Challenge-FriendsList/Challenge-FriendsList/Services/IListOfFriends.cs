@@ -7,6 +7,7 @@ namespace Challenge_FriendsList.Services
     {
         List<Friend> listOfFriends { get; set; }
         public Friend getFriendById(int id);
+        public void deleteFriendById(int id);
     }
 
 }

@@ -26,7 +26,7 @@ namespace Challenge_FriendsList.Services
         {
             //LINQ or LAMBDA statement
 
-            Friend friend = this.listOfFriends.SingleOrDefault(friend => friend.id == id);
+            Friend friend = this.listOfFriends.FirstOrDefault(friend => friend.id == id);
             return friend;
         }
 

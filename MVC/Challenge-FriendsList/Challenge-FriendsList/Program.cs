@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddSingleton<IListOfFriends, ListOfFriends>();
+builder.Services.AddSingleton<IListOfFriends, ListOfFriends>(); //instantiating service based on List of Friends interface
 
 var app = builder.Build();
 

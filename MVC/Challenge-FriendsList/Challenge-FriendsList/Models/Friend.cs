@@ -17,7 +17,6 @@ namespace Challenge_FriendsList.Models
         public string place { get; set; }
         
         [Display(Name = "Age: ")]
-        [StringLength(3)]
         public int age { get; set; }
 
         [Display(Name = "Occupation: ")]
