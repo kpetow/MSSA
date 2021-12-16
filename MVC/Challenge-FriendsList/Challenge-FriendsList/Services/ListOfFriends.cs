@@ -22,7 +22,7 @@ namespace Challenge_FriendsList.Services
             };
         }
 
-        public Friend getFriendById(int id)
+        public Friend getFriendById(int? id)
         {
             //LINQ or LAMBDA statement
 
@@ -34,6 +34,12 @@ namespace Challenge_FriendsList.Services
         {
             Friend friend = getFriendById(id);
             this.listOfFriends.Remove(friend);
+        }
+
+        public void editFriendById(int id)
+        {
+            Friend friend = getFriendById(id);
+            //this.listOfFriends(friend);
         }
     }
 }

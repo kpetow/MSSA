@@ -44,29 +44,22 @@ namespace Challenge_FriendsList.Controllers
         public IActionResult editFriend(int id)
         {
             Friend friend = _listofFriends.getFriendById(id);
-            return View(friend);
+            ViewBag.friendName = friend.friendName;
+            return View();
         }
 
         [HttpPost]
-        public IActionResult Edit(Friend model)
+        public IActionResult Edit(int? id)
         {
-            if (ModelState.IsValid)
-            {
-                Friend friend = _listofFriends.getFriendById(model.id);
-                friend.id = model.id;
-                friend.friendName = model.friendName;
-                friend.age = model.age;
-                friend.occupation = model.occupation;
-                friend.place = model.place;
-                friend.sport = model.sport;
-            }
-
-            return View();
+            Friend friend  = _listofFriends.getFriendById(id);
+            ViewBag.friendName = friend.friendName;
+            return View(friend);
         }
 
         public IActionResult Details(int id)
         {
             Friend friend = _listofFriends.getFriendById(id);
+            ViewBag.friendName = friend.friendName;
             return View(friend);
         }
 

@@ -42,7 +42,7 @@
                 <span asp-validation-for="sport" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <a asp-controller="Friend" asp-action="Edit" class="btn btn-primary">Save</a>
                 <a asp-controller="Friend" asp-action="index" class="btn btn-primary">Cancel</a>
             </div>
         </form>
@@ -53,3 +53,6 @@
     <a asp-action="Index">Back to List</a>
 </div>
 
+@section myCustomSection{
+    <p>edit the details of your friend here!</p>
+}

@@ -31,18 +31,23 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Friend" asp-action="InsertNewFriend">Add a Friend</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Friend" asp-action="editFriend">Update Friend</a>
-                        </li>
                     </ul>
+                    
                 </div>
+                <p>@ViewBag.friendName</p>
             </div>
         </nav>
     </header>
+
     <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+       <div class="row">
+            <div class="col">
+                 @RenderBody()
+            </div>
+            <div class="col">
+                 @RenderSection("myCustomSection", false)
+            </div>
+       </div>
     </div>
 
     <footer class="border-top footer text-muted">

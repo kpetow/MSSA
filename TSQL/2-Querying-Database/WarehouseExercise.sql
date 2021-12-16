@@ -40,12 +40,14 @@ create table Boxes
 )
 
 --6--
-insert into Warehouses (city) values ('Boston')
-insert into Warehouses (city) values ('Seattle')
-insert into Warehouses (city) values ('New York')
-insert into Warehouses (city) values ('Houston')
-insert into Warehouses (city) values ('Miami')
-insert into Warehouses (city) values ('Chicago')
+GO
+	insert into Warehouses (city) values ('Boston')
+	insert into Warehouses (city) values ('Seattle')
+	insert into Warehouses (city) values ('New York')
+	insert into Warehouses (city) values ('Houston')
+	insert into Warehouses (city) values ('Miami')
+	insert into Warehouses (city) values ('Chicago')
+GO
 
 --7--
 insert into Boxes (warehouseId) values (1)

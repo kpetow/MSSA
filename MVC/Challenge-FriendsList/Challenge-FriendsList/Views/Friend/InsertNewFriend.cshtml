@@ -1,12 +1,7 @@
 ﻿@model Friend
 
-<html>
-    <head>
 
-    </head>
-
-    <body>
-        <h1></h1>
+        <h1>Add a Friend</h1>
         <form method="post" enctype="multipart/form-data" asp-action="InsertNewFriend">
             <div asp-validation-summary="All"></div>
             <div class="form-field">
@@ -44,6 +39,8 @@
             </div>
         </form>
 
-    </body>
 
-</html>
+    @section myCustomSection
+    {
+        <p>Enter the details of your friend below. Be sure to fill all sections.</p>
+    }
