@@ -4,6 +4,7 @@ namespace Challenge_FriendsList.Models
 {
     public class Friend
     {
+        [Key]
         [Display(Name = "ID: ")]
         [Required(ErrorMessage = "You must enter an ID.")]
         public int id { get; set; }

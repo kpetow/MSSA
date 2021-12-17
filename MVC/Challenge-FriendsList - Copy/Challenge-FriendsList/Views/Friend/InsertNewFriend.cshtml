@@ -1,0 +1,46 @@
+﻿@model Friend
+
+
+        <h1>Add a Friend</h1>
+        <form method="post" enctype="multipart/form-data" asp-action="InsertNewFriend">
+            <div asp-validation-summary="All"></div>
+            <div class="form-field">
+                <label asp-for="id"></label>
+                <input asp-for="id" />
+                <span asp-validation-for="id"></span>
+            </div>
+            <div class="form-field">
+                <label asp-for="friendName"></label>
+                <input asp-for="friendName" />
+                <span asp-validation-for="friendName"></span>
+            </div>
+            <div class="form-field">
+                <label asp-for="place"></label>
+                <input asp-for="place" />
+                <span asp-validation-for="place"></span>
+            </div>
+            <div class="form-field">
+                <label asp-for="age"></label>
+                <input asp-for="age" />
+                <span asp-validation-for="age"></span>
+            </div>
+            <div class="form-field">
+                <label asp-for="occupation"></label>
+                <input asp-for="occupation" />
+                <span asp-validation-for="occupation"></span>
+            </div>
+            <div class="form-field">
+                <label asp-for="sport"></label>
+                <input asp-for="sport" />
+                <span asp-validation-for="sport"></span>
+            </div>
+            <div class="form-field">
+                <input type="submit" value="Submit" />
+            </div>
+        </form>
+
+
+    @section myCustomSection
+    {
+        <p>Enter the details of your friend below. Be sure to fill all sections.</p>
+    }

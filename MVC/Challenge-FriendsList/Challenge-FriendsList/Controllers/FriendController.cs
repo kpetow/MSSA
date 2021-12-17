@@ -21,6 +21,7 @@ namespace Challenge_FriendsList.Controllers
         {                 
             return View(_listofFriends);
         }
+
         [HttpGet]
         public IActionResult InsertNewFriend()
         {
@@ -44,22 +45,19 @@ namespace Challenge_FriendsList.Controllers
         public IActionResult editFriend(int id)
         {
             Friend friend = _listofFriends.getFriendById(id);
-            ViewBag.friendName = friend.friendName;
-            return View();
+            return View(friend);
         }
 
         [HttpPost]
-        public IActionResult Edit(int? id)
+        public IActionResult editFriend(Friend friend)
         {
-            Friend friend  = _listofFriends.getFriendById(id);
-            ViewBag.friendName = friend.friendName;
+            _listofFriends.editFriend(friend);
             return View(friend);
         }
 
         public IActionResult Details(int id)
         {
-            Friend friend = _listofFriends.getFriendById(id);
-            ViewBag.friendName = friend.friendName;
+            Friend friend = _listofFriends.getFriendById(id);            
             return View(friend);
         }
 
@@ -67,7 +65,7 @@ namespace Challenge_FriendsList.Controllers
 
         public IActionResult Delete(int id)
         {
-            _listofFriends.deleteFriendById(id);
+            _listofFriends.deleteFriend(id);
             return RedirectToAction("Index");
         }
 

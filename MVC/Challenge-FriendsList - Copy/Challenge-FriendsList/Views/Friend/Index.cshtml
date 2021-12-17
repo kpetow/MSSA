@@ -1,0 +1,27 @@
+﻿@using Challenge_FriendsList.Services;
+
+@model ListOfFriends
+
+<a asp-action="InsertNewFriend">Add New</a>
+
+<ul class="friendslist">
+    @foreach (var item in Model.listOfFriends)
+    {
+        <li class="friend">
+            <div class="friend-info">
+                <p class="friends-name">@item.friendName</p>
+            </div>
+            <div class="friend-actions">
+                <a asp-action="Details" asp-route-id="@item.id">View</a>
+                <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+                <a asp-action="editFriend" asp-route-id="@item.id">Edit</a>
+            </div>
+        </li>
+
+    }
+</ul>
+
+    @section myCustomSection
+    {
+        <p>Here is your friends list. You are given options to see their info, update them, or remove them!</p>
+    }

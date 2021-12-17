@@ -1,11 +1,15 @@
 using Challenge_FriendsList.Models;
 using Challenge_FriendsList.Services;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.SqlServer;
+using Challenge_FriendsList.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddDbContext<FriendContext>(options => options.UseSqlServer);
 builder.Services.AddControllersWithViews();
-builder.Services.AddSingleton<IListOfFriends, ListOfFriends>(); //instantiating service based on List of Friends interface
+builder.Services.AddTransient<IListOfFriends, ListOfFriends>(); //instantiating service based on List of Friends interface
 
 var app = builder.Build();
 

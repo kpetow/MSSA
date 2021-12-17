@@ -1,20 +1,20 @@
 ﻿@using Challenge_FriendsList.Services;
 
-@model ListOfFriends
+@model List<Friend>
 
-<a asp-action="InsertNewFriend">Add a new friend</a>
+<a asp-action="InsertNewFriend">Add New</a>
 
 <ul class="friendslist">
-    @foreach (var item in Model.listOfFriends)
+    @foreach (var item in Model)
     {
         <li class="friend">
             <div class="friend-info">
                 <p class="friends-name">@item.friendName</p>
             </div>
             <div class="friend-actions">
-                <a asp-action="Details" asp-route-id="@item.id">View Friend's Details</a>
-                <a asp-action="Delete" asp-route-id="@item.id">Delete Friend</a>
-                <a asp-action="editFriend" asp-route-id="@item.id">Update Friend</a>
+                <a asp-action="Details" asp-route-id="@item.id">View</a>
+                <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+                <a asp-action="editFriend" asp-route-id="@item.id">Edit</a>
             </div>
         </li>
 
