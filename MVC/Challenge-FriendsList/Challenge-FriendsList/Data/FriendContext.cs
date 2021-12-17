@@ -9,7 +9,7 @@ namespace Challenge_FriendsList.Data
         {
 
         }
-        public DbSet<Friend> listOfFriends { get; set; }
+        public DbSet<Friend> Friend { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

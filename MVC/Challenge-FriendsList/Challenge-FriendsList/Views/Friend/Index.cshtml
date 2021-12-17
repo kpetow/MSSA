@@ -2,6 +2,10 @@
 
 @model List<Friend>
 
+    @{
+        ViewData["Title"] = "My List of Friends";
+    }
+
 <a asp-action="InsertNewFriend">Add New</a>
 
 <ul class="friendslist">

@@ -7,6 +7,7 @@ namespace Challenge_FriendsList.Controllers
 {
     public class FriendController : Controller
     {
+        //We need the butler
         IListOfFriends _listofFriends;
 
         //Inject service into controller
@@ -19,7 +20,7 @@ namespace Challenge_FriendsList.Controllers
         //Read Friend
           public IActionResult Index()
         {                 
-            return View(_listofFriends);
+            return View(_listofFriends.getFriends());
         }
 
         [HttpGet]
@@ -34,11 +35,24 @@ namespace Challenge_FriendsList.Controllers
         {
             if (ModelState.IsValid)
             {
-                _listofFriends.listOfFriends.Add(friend);
+                _listofFriends.insertNewFriend(friend);
                 return RedirectToAction("Index");
             }
             
             return View();
+        }
+
+        public IActionResult Details(int id)
+        {
+            Friend friend = _listofFriends.getFriendById(id);
+            return View(friend);
+        }
+
+        //Delete Friend
+        public IActionResult Delete(int id)
+        {
+            _listofFriends.deleteFriend(id);
+            return RedirectToAction("Index");
         }
 
         //Update Friend
@@ -55,19 +69,7 @@ namespace Challenge_FriendsList.Controllers
             return View(friend);
         }
 
-        public IActionResult Details(int id)
-        {
-            Friend friend = _listofFriends.getFriendById(id);            
-            return View(friend);
-        }
 
-        //Delete Friend
-
-        public IActionResult Delete(int id)
-        {
-            _listofFriends.deleteFriend(id);
-            return RedirectToAction("Index");
-        }
 
 
     }

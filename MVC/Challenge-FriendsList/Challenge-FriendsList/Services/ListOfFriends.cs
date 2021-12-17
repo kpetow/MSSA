@@ -1,6 +1,7 @@
 ﻿using Challenge_FriendsList.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Challenge_FriendsList.Data;
 
 namespace Challenge_FriendsList.Services
 {
@@ -8,6 +9,8 @@ namespace Challenge_FriendsList.Services
     {
         //This is also gonna be delegated to the Data Context
         //public List<Friend> listOfFriends { get; set; }
+
+        private FriendContext butler;
 
         public ListOfFriends(FriendContext db)
         {
@@ -31,7 +34,7 @@ namespace Challenge_FriendsList.Services
             return butler.Friend.ToList();
         }
 
-        public Friend getFriendById(int? id)
+        public Friend getFriendById(int id)
         {
             //read action
             return this.butler.Friend.SingleOrDefault(friend => friend.id == id);            
@@ -46,7 +49,7 @@ namespace Challenge_FriendsList.Services
 
         public void deleteFriend(int id)
         {
-            Friend friend = butler.Friend.SingleOrDefault(Friend => friend.id == id);
+            Friend friend = butler.Friend.SingleOrDefault(friend => friend.id == id);
             butler.Friend.Remove(friend);
             butler.SaveChanges();
         }
