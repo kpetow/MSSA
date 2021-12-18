@@ -56,7 +56,8 @@ namespace Challenge_FriendsList.Controllers
         }
 
         //Update Friend
-        public IActionResult editFriend(int id)
+        //I need to figure out how to redirect the save button to the index page
+        public IActionResult editFriend(int id) 
         {
             Friend friend = _listofFriends.getFriendById(id);
             return View(friend);
