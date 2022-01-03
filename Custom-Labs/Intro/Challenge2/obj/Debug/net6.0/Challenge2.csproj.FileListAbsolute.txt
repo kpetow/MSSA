@@ -1,0 +1,15 @@
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\Intro\Challenge2\obj\Debug\net6.0\Challenge2.csproj.AssemblyReference.cache
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\Intro\Challenge2\obj\Debug\net6.0\Challenge2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\Intro\Challenge2\obj\Debug\net6.0\Challenge2.AssemblyInfoInputs.cache
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\Intro\Challenge2\obj\Debug\net6.0\Challenge2.AssemblyInfo.cs
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\Intro\Challenge2\obj\Debug\net6.0\Challenge2.csproj.CoreCompileInputs.cache
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\Intro\Challenge2\bin\Debug\net6.0\Challenge2.exe
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\Intro\Challenge2\bin\Debug\net6.0\Challenge2.deps.json
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\Intro\Challenge2\bin\Debug\net6.0\Challenge2.runtimeconfig.json
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\Intro\Challenge2\bin\Debug\net6.0\Challenge2.dll
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\Intro\Challenge2\bin\Debug\net6.0\ref\Challenge2.dll
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\Intro\Challenge2\bin\Debug\net6.0\Challenge2.pdb
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\Intro\Challenge2\obj\Debug\net6.0\Challenge2.dll
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\Intro\Challenge2\obj\Debug\net6.0\ref\Challenge2.dll
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\Intro\Challenge2\obj\Debug\net6.0\Challenge2.pdb
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\Intro\Challenge2\obj\Debug\net6.0\Challenge2.genruntimeconfig.cache
