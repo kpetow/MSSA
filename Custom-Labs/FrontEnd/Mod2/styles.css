@@ -1,0 +1,13 @@
+.wolf{
+    float: left;
+}
+.sheep{
+    float: right;
+}
+.wall{
+    position: absolute;
+    left: 44%;
+    max-height: unset;
+    width: 100px;
+    height: 220px;
+}

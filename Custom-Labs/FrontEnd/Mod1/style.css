@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 0px;
+    width: 300px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+  }
+  
+  
+
+  .cell{
+    width: 100px;
+    height: 100px;
+    border-color:black;
+    border-style: solid;
+    border-radius: 8px;
+
+    font-size: 60px;
+    text-align: center;
+    line-height: 100px;
+    
+  }
+
+  #cubeRed{
+    background-color: red;
+  }
+
+  #cubeYellow{
+    background-color: yellow;
+  }
+
+  #cubeBlue{
+    background-color: blue;
+  }
+  
+  #cubeGreen{
+    background-color: green;
+  }
+  #cubeOrange{
+    background-color: orange;
+  }
+
+  #x{
+    color: blue;
+  }
+
+  #o{
+    color: red;
+  }
