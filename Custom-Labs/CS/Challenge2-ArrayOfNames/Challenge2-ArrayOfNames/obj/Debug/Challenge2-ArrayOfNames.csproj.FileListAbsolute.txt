@@ -1,0 +1,8 @@
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge2-ArrayOfNames\Challenge2-ArrayOfNames\bin\Debug\Challenge2-ArrayOfNames.exe.config
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge2-ArrayOfNames\Challenge2-ArrayOfNames\bin\Debug\Challenge2-ArrayOfNames.exe
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge2-ArrayOfNames\Challenge2-ArrayOfNames\bin\Debug\Challenge2-ArrayOfNames.pdb
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge2-ArrayOfNames\Challenge2-ArrayOfNames\obj\Debug\Challenge2-ArrayOfNames.csproj.AssemblyReference.cache
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge2-ArrayOfNames\Challenge2-ArrayOfNames\obj\Debug\Challenge2-ArrayOfNames.csproj.SuggestedBindingRedirects.cache
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge2-ArrayOfNames\Challenge2-ArrayOfNames\obj\Debug\Challenge2-ArrayOfNames.csproj.CoreCompileInputs.cache
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge2-ArrayOfNames\Challenge2-ArrayOfNames\obj\Debug\Challenge2-ArrayOfNames.exe
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge2-ArrayOfNames\Challenge2-ArrayOfNames\obj\Debug\Challenge2-ArrayOfNames.pdb

@@ -1,0 +1,41 @@
+﻿<Window x:Class="WPFCRUD.Form"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFCRUD"
+        mc:Ignorable="d"
+        Title="Form" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Column="0" Grid.Row="0">First Name</TextBlock>
+        <TextBox Grid.Column="1" Grid.Row="0" x:Name="FirstNameTxt"></TextBox>
+        
+        <TextBlock Grid.Column="0" Grid.Row="1">Last Name</TextBlock>
+        <TextBox Grid.Column="1" Grid.Row="1" x:Name="LastNameTxt"></TextBox>
+        
+        <TextBlock Grid.Column="0" Grid.Row="2">Age</TextBlock>
+        <TextBox Grid.Column="1" Grid.Row="2" x:Name="AgeTxt"></TextBox>
+        
+        <TextBlock Grid.Column="0" Grid.Row="3">Height</TextBlock>
+        <TextBox Grid.Column="1" Grid.Row="3" x:Name="HeightTxt"></TextBox>
+
+        <TextBlock Grid.Column="0" Grid.Row="4">Failed</TextBlock>
+        <TextBox Grid.Column="1" Grid.Row="4" x:Name="FailedTxt"></TextBox>
+
+        <Button Click="closeWindow" Grid.Column="1" Grid.Row="5">Close the form</Button>
+        <Button Click="addNewStudent" Grid.Column="0" Grid.Row="5">Save New Button</Button>
+    </Grid>
+</Window>

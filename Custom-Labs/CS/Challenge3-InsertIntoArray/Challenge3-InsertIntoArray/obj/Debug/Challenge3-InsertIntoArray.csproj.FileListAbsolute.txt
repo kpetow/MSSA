@@ -1,0 +1,8 @@
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge3-InsertIntoArray\Challenge3-InsertIntoArray\bin\Debug\Challenge3-InsertIntoArray.exe.config
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge3-InsertIntoArray\Challenge3-InsertIntoArray\bin\Debug\Challenge3-InsertIntoArray.exe
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge3-InsertIntoArray\Challenge3-InsertIntoArray\bin\Debug\Challenge3-InsertIntoArray.pdb
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge3-InsertIntoArray\Challenge3-InsertIntoArray\obj\Debug\Challenge3-InsertIntoArray.csproj.AssemblyReference.cache
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge3-InsertIntoArray\Challenge3-InsertIntoArray\obj\Debug\Challenge3-InsertIntoArray.csproj.SuggestedBindingRedirects.cache
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge3-InsertIntoArray\Challenge3-InsertIntoArray\obj\Debug\Challenge3-InsertIntoArray.csproj.CoreCompileInputs.cache
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge3-InsertIntoArray\Challenge3-InsertIntoArray\obj\Debug\Challenge3-InsertIntoArray.exe
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge3-InsertIntoArray\Challenge3-InsertIntoArray\obj\Debug\Challenge3-InsertIntoArray.pdb

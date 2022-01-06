@@ -1,0 +1,8 @@
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge5-E3-Polymorphism\Challenge5-E3-Polymorphism\bin\Debug\Challenge5-E3-Polymorphism.exe.config
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge5-E3-Polymorphism\Challenge5-E3-Polymorphism\bin\Debug\Challenge5-E3-Polymorphism.exe
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge5-E3-Polymorphism\Challenge5-E3-Polymorphism\bin\Debug\Challenge5-E3-Polymorphism.pdb
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge5-E3-Polymorphism\Challenge5-E3-Polymorphism\obj\Debug\Challenge5-E3-Polymorphism.csproj.AssemblyReference.cache
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge5-E3-Polymorphism\Challenge5-E3-Polymorphism\obj\Debug\Challenge5-E3-Polymorphism.csproj.SuggestedBindingRedirects.cache
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge5-E3-Polymorphism\Challenge5-E3-Polymorphism\obj\Debug\Challenge5-E3-Polymorphism.csproj.CoreCompileInputs.cache
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge5-E3-Polymorphism\Challenge5-E3-Polymorphism\obj\Debug\Challenge5-E3-Polymorphism.exe
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge5-E3-Polymorphism\Challenge5-E3-Polymorphism\obj\Debug\Challenge5-E3-Polymorphism.pdb

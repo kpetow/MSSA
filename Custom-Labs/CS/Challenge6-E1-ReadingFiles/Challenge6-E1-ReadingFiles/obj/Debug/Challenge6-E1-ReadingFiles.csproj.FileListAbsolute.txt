@@ -1,0 +1,8 @@
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge6-E1-ReadingFiles\Challenge6-E1-ReadingFiles\obj\Debug\Challenge6-E1-ReadingFiles.csproj.AssemblyReference.cache
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge6-E1-ReadingFiles\Challenge6-E1-ReadingFiles\obj\Debug\Challenge6-E1-ReadingFiles.csproj.SuggestedBindingRedirects.cache
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge6-E1-ReadingFiles\Challenge6-E1-ReadingFiles\obj\Debug\Challenge6-E1-ReadingFiles.csproj.CoreCompileInputs.cache
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge6-E1-ReadingFiles\Challenge6-E1-ReadingFiles\bin\Debug\Challenge6-E1-ReadingFiles.exe.config
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge6-E1-ReadingFiles\Challenge6-E1-ReadingFiles\bin\Debug\Challenge6-E1-ReadingFiles.exe
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge6-E1-ReadingFiles\Challenge6-E1-ReadingFiles\bin\Debug\Challenge6-E1-ReadingFiles.pdb
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge6-E1-ReadingFiles\Challenge6-E1-ReadingFiles\obj\Debug\Challenge6-E1-ReadingFiles.exe
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge6-E1-ReadingFiles\Challenge6-E1-ReadingFiles\obj\Debug\Challenge6-E1-ReadingFiles.pdb

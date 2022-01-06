@@ -1,0 +1,8 @@
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge1-Calculator\Challenge1-Calculator\bin\Debug\Challenge1-Calculator.exe.config
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge1-Calculator\Challenge1-Calculator\bin\Debug\Challenge1-Calculator.exe
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge1-Calculator\Challenge1-Calculator\bin\Debug\Challenge1-Calculator.pdb
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge1-Calculator\Challenge1-Calculator\obj\Debug\Challenge1-Calculator.csproj.AssemblyReference.cache
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge1-Calculator\Challenge1-Calculator\obj\Debug\Challenge1-Calculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge1-Calculator\Challenge1-Calculator\obj\Debug\Challenge1-Calculator.csproj.CoreCompileInputs.cache
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge1-Calculator\Challenge1-Calculator\obj\Debug\Challenge1-Calculator.exe
+C:\Users\kpeto\source\repos\MSSA\Custom-Labs\CS\Challenge1-Calculator\Challenge1-Calculator\obj\Debug\Challenge1-Calculator.pdb
