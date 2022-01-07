@@ -19,6 +19,17 @@
                     <DataGridTextColumn Header="Age" Binding="{Binding Age}"></DataGridTextColumn>
                     <DataGridTextColumn Header="Height" Binding="{Binding Height}"></DataGridTextColumn>
                     <DataGridTextColumn Header="Failed" Binding="{Binding Failed}"></DataGridTextColumn>
+
+                    <DataGridTemplateColumn>
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel>
+                                    <Button CommandParameter="{Binding Id}" Click="editStudent">Edit Entry</Button>
+                                    <Button CommandParameter="{Binding Id}" Click="deleteStudent">Delete Entry</Button>
+                                </StackPanel>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
                 </DataGrid.Columns>
             </DataGrid>
         </Grid>

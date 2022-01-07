@@ -20,24 +20,62 @@ namespace WPFCRUD
     /// </summary>
     public partial class Form : Window
     {
-        public Form()
+        int id;
+        public Form(int id = 0)
         {
             InitializeComponent();
+
+            this.id = id;
+
+            if (id != 0)
+            {
+                using (Model.WPFEntities db = new Model.WPFEntities())
+                {
+                    Model.Student oStudent = db.Student.Find(id);
+
+                    FirstNameTxt.Text = oStudent.FirstName;
+                    LastNameTxt.Text = oStudent.LastName;
+                    AgeTxt.Text = oStudent.Age.ToString();
+                    HeightTxt.Text = oStudent.Height.ToString();
+                    FailedTxt.IsChecked = oStudent.Failed;
+                }
+            }
         }
 
         private void addNewStudent(object sender, RoutedEventArgs e)
         {
-            Student oStudent = new Student();
-            oStudent.FirstName = FirstNameTxt.Text;
-            oStudent.LastName = LastNameTxt.Text;
-            oStudent.Age = int.Parse(AgeTxt.Text);
-            oStudent.Height = decimal.Parse(HeightTxt.Text);
-            oStudent.Failed = FailedTxt.Text;
-
-            using (WPFEntities db = new WPFEntities())
+            if (id == 0)
             {
-                db.Student.Add(oStudent);
+                using (WPFEntities db = new WPFEntities())
+                {
+                    Student oStudent = new Student();
+                    oStudent.FirstName = FirstNameTxt.Text;
+                    oStudent.LastName = LastNameTxt.Text;
+                    oStudent.Age = int.Parse(AgeTxt.Text);
+                    oStudent.Height = decimal.Parse(HeightTxt.Text);
+                    oStudent.Failed = FailedTxt.IsChecked.Value;
+
+                    db.Student.Add(oStudent);
+                    db.SaveChanges();
+                }
+                
+            } else
+            {
+                using (WPFEntities db = new WPFEntities())
+                {
+                    Model.Student oStudent = db.Student.Find(id);                    
+                    oStudent.FirstName = FirstNameTxt.Text;
+                    oStudent.LastName = LastNameTxt.Text;
+                    oStudent.Age = int.Parse(AgeTxt.Text);
+                    oStudent.Height = decimal.Parse(HeightTxt.Text);
+                    oStudent.Failed = FailedTxt.IsChecked.Value;
+
+                    db.Entry(oStudent).State = System.Data.Entity.EntityState.Modified;
+                    db.SaveChanges();
+                }
+
             }
+            this.Close();
         }
 
         private void closeWindow(object sender, RoutedEventArgs e)

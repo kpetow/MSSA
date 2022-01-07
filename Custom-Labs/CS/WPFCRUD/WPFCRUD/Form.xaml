@@ -33,7 +33,7 @@
         <TextBox Grid.Column="1" Grid.Row="3" x:Name="HeightTxt"></TextBox>
 
         <TextBlock Grid.Column="0" Grid.Row="4">Failed</TextBlock>
-        <TextBox Grid.Column="1" Grid.Row="4" x:Name="FailedTxt"></TextBox>
+        <CheckBox Grid.Column="1" Grid.Row="4" x:Name="FailedTxt"></CheckBox>
 
         <Button Click="closeWindow" Grid.Column="1" Grid.Row="5">Close the form</Button>
         <Button Click="addNewStudent" Grid.Column="0" Grid.Row="5">Save New Button</Button>

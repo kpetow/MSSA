@@ -29,19 +29,6 @@ namespace WPFCRUD
         public void Refresh()
         {
             List<StudentClass> myListOfStudents = new List<StudentClass>();
-            //using (WPFEntities db = new WPFEntities())
-            //{
-            //    myListOfStudents = (from obj in db.Student select new Student
-            //    {
-            //        Id = obj.Id,
-            //        FirstName = obj.FirstName,
-            //        LastName = obj.LastName,
-            //        Age = obj.Age,
-            //        Height = obj.Height,
-            //        Failed = obj.Failed
-            //    }).ToList();   
-            //}
-
             using (WPFEntities db = new WPFEntities()) //opening connection to the DB
             {
                 myListOfStudents = (from obj in db.Student
@@ -69,6 +56,31 @@ namespace WPFCRUD
         {
             Form studentsListWindow = new Form();
             studentsListWindow.ShowDialog();
+            Refresh();
+        }
+
+        private void editStudent(object sender, RoutedEventArgs e)
+        {
+            Button myBtn = (Button)sender;
+            int id = (int)myBtn.CommandParameter;
+
+            Form formWindow = new Form(id);
+            formWindow.ShowDialog();
+            Refresh();
+        }
+
+        private void deleteStudent(object sender, RoutedEventArgs e)
+        {
+            Button myBtn = (Button)sender;
+            int id = (int)myBtn.CommandParameter;
+
+            using (Model.WPFEntities db = new Model.WPFEntities())
+            {
+                Model.Student oStudent = db.Student.Find(id);
+                db.Student.Remove(oStudent);
+                db.SaveChanges();
+            }
+            Refresh();
         }
     }
 
